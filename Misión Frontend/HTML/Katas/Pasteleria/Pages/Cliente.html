@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/general.css">
+  <title>Cliente</title>
+</head>
+<body>
+  <button onclick="location.href='../index.html'">Volver</button>
+  <h2>Cliente</h2>
+  <form action="#" id="form1" method="post" onsubmit="return EnviarPedido(this);">
+    <h3>Crea tu pastel</h3>
+    <!--Sabores y adornos-->
+    <div class="elementos-pastel">
+      <div class="elemento-pastel">
+        <h3>Elige tus sabores</h3>
+        <div class="" id="saboresDiv">
+          <table border="1">
+            <tbody id="tablaSabores">
+              <tr>
+                <th></th>
+                <th>Sabor</th>
+                <th>Precio</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="elemento-pastel">
+        <h3>Elige tus adornos</h3>
+        <div class="" id="adornosDiv">
+          <table border="1">
+            <tbody id="tablaAdornos">
+              <tr>
+                <th></th>
+                <th>Sabor</th>
+                <th>Precio</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--Datos del cliente-->
+    <h3>Tus datos</h3>
+    <div class="datos">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"><br>
+        <label for="tel">Teléfono</label>
+        <input type="tel" name="telefono"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email"><br>
+        <label for="descripcion">Descripción</label>
+        <textarea name="descripcion" cols="60" rows="5"></textarea>
+    </div>
+    <input type="submit" value="Enviar pedido">
+  </form>
+  <script src="../scripts/cliente.js"></script>
+</body>
+</html>

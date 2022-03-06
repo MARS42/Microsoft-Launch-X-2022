@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/general.css">
+  <link rel="stylesheet" href="../styles/pastelero.css">
+  <title>Pastelero</title>
+</head>
+<body>
+  <button onclick="location.href='../index.html'">Volver</button>
+  <h2>Pastelero</h2>
+  <div class="pastelero">
+      <h3>Administra los sabores y adornos</h3>
+  <!--Sabores y adornos-->
+  <div class="elementos-pastel">
+      <div class="elemento-pastel">
+        <h3>Sabores disponibles</h3>
+        <div class="" id="saboresDiv">
+          <table border="1">
+            <tbody id="tablaSabores">
+              <tr>
+                <th>Sabor</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="elemento-pastel">
+        <h3>Adornos disponibles</h3>
+        <div class="" id="adornosDiv">
+          <table border="1">
+            <tbody id="tablaAdornos">
+              <tr>
+                <th>Sabor</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+  <h3>Pedidos</h3>
+  <div class="pedidos">
+    <table border="1">
+      <tbody id="tablaPedidos">
+        <tr>
+          <th>Pedido de</th>
+        </tr>
+      </tbody>
+    </table>
+    <p>Da click en algún pedido para ver más inforación</p>
+  </div>
+  </div>
+  <script src="../scripts/pastelero.js"></script>
+</body>
+</html>

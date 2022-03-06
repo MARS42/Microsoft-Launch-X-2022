@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.roles{
+  display: grid;
+  width: 40%;
+  grid-gap: 12px;
+  grid-template:  "logo logo"
+                  "titulo titulo"
+                  "botonA botonB";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.roles > img{
+  grid-area: logo;
+  margin: auto;
+  width: 50%;
+}
+
+.roles > h2 {
+  grid-area: titulo;
+}
+
+.roles > .roles-a {
+  grid-area: botonA;
+}
+
+.roles > .roles-b {
+  grid-area: botonB;
+  
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th, td {
+  letter-spacing: 2px;
+  padding: 8px;
+}
+
+form{
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form > input[type=submit]{
+  width: 100px;
+  margin: 12px auto;
+}
+
+.elementos-pastel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.elemento-pastel{
+  width: 30%;
+}
+
+.datos{
+  margin: auto;
+  width: 50%;
+}
+
+.datos label {
+  display: inline-block;
+  width: 128px;
+  margin: 8px 0;
+}
+
+.pastelero {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

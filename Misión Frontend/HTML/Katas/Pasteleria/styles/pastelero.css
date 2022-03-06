@@ -1,0 +1,13 @@
+.fila-pedido{
+  cursor: pointer;
+}
+
+.info{
+  opacity: 1;
+}
+
+.info-oculta{
+  display: none;
+  opacity: 0;
+}
+

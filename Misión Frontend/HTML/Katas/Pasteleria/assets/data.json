@@ -1,0 +1,46 @@
+{
+  "sabores": {
+    "Chocolate": {
+      "Precio": 15.5,
+      "Cantidad": 10
+    },
+    "Vainilla": {
+      "Precio": 11.2,
+      "Cantidad": 21
+    },
+    "Coco": {
+      "Precio": 17.2,
+      "Cantidad": 23
+    },
+    "Café": {
+      "Precio": 13.2,
+      "Cantidad": 12
+    }
+  },
+  "adornos": {
+    "Chispas de chocolate": {
+      "Precio": 1.5,
+      "Cantidad": 102
+    },
+    "Chispas de colores": {
+      "Precio": 1.2,
+      "Cantidad": 42
+    },
+    "Chochitos": {
+      "Precio": 2.1,
+      "Cantidad": 59
+    },
+    "Imagen comestible": {
+      "Precio": 13.4,
+      "Cantidad": 134
+    },
+    "Nueces": {
+      "Precio": 6.4,
+      "Cantidad": 64
+    },
+    "Frutas": {
+      "Precio": 23,
+      "Cantidad": 76
+    }
+  }
+}

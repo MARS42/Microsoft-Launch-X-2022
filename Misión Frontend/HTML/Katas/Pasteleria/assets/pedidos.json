@@ -1,0 +1,73 @@
+{
+  "0" : {
+    "sabores":[
+        "Chocolate",
+        "Vainilla"
+    ],
+    "adornos":[
+        "Chispas de chocolate",
+        "Chochitos",
+        "Frutas"
+    ],
+    "nombre":"José Roberto Martínez Sánchez",
+    "telefono":"7352994015",
+    "email":"roberto@gmail.com",
+    "descripcion":"Pastel para un cumpleaños, será de chocolate y vainilla con los adornos especificados."
+  },
+  "1" : {
+    "sabores":[
+        "Café"
+    ],
+    "adornos":[
+        "Nueces"
+    ],
+    "nombre":"Lissete Pacheco Espinosa",
+    "telefono":"7351680761",
+    "email":"lis@gmail.com",
+    "descripcion":"Pastel sencillo con solo los ingredientes seleccionados sin nada especial."
+  },
+  "2": {
+    "sabores":[
+        "Vainilla",
+        "Coco"
+    ],
+    "adornos":[
+        "Chispas de chocolate",
+        "Chispas de colores",
+        "Chochitos",
+        "Imagen comestible"
+    ],
+    "nombre":"Erick Andrés Huerta Marañón",
+    "telefono":"7354951549",
+    "email":"erick@gmail.com",
+    "descripcion":"Pastel para una fiesta de cumpleaños, desearía que la imagen comestible fuera un creeper del videojuego Minecraft."
+  },
+  "3": {
+    "sabores":[
+        "Chocolate"
+    ],
+    "adornos":[
+        "Nueces",
+        "Frutas"
+    ],
+    "nombre":"Omar Eli Aguilar López",
+    "telefono":"7354951684",
+    "email":"omar@gmail.com",
+    "descripcion":"Pastel de chocolate con nueces dentro y las frutas de topping, favor de partirlo en 4 porciones."
+  },
+  "4": {
+    "sabores":[
+        "Vainilla",
+        "Café"
+    ],
+    "adornos":[
+        "Chispas de chocolate",
+        "Imagen comestible",
+        "Frutas"
+    ],
+    "nombre":"María del Carmen Sánchez Rojas",
+    "telefono":"7354961589",
+    "email":"carmen@gmail.com",
+    "descripcion":"Pastel mitad vainilla y mitad café, que las frutas vayan de relleno y la imagen sea una fotografía de la torre Eiffel y las chispas de chocolate a los alrededores del pastel."
+  }
+}
